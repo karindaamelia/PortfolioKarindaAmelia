@@ -1,0 +1,15 @@
+body {
+  font-family: $fontPrimary;
+  background-color: $themeColor;
+  color: $primaryColor;
+}
+
+a {
+  color: $primaryColor;
+  text-decoration: none;
+  @include transition;
+
+  &:hover {
+    color: $secondaryColor;
+  }
+}

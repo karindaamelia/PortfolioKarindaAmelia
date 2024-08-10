@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 60px 0;
+
+  h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .contact-btn {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    background: $secondaryColor;
+    border: 2px solid $secondaryColor;
+    color: $themeColor;
+    font-style: normal;
+
+    &:hover {
+      background: $tertiaryColor;
+      border: 2px solid $tertiaryColor;
+      color: $themeColor;
+    }
+  }
+}

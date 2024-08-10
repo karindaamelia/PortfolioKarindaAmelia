@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  img {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    padding-left: 33px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      color: $secondaryColor;
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 24px;
+      color: $tertiaryColor;
+    }
+
+    p {
+      color: $tertiaryColor;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      color: $tertiaryColor;
+
+      li {
+        padding-left: 25px;
+        display: flex;
+        align-items: center;
+      }
+
+      i {
+        font-size: 16px;
+        margin-right: 5px;
+        color: $secondaryColor;
+        line-height: 0;
+      }
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Navbar About Me
+--------------------------------------------------------------*/
+.resume-container {
+  background: rgba(255, 255, 255, 0.083);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.resume-navbar {
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .nav-link {
+    color: $secondaryColor;
+    font-weight: bold;
+
+    &.active {
+      background-color: $secondaryColor;
+      font-weight: bold;
+      color: $themeColor;
+    }
+  }
+}
+
+.btn-custom {
+  background-color: transparent;
+  color: $tertiaryColor;
+  border: 2px solid $tertiaryColor;
+  padding: 7px 30px;
+  font-weight: bold;
+
+  &:hover {
+    color: $secondaryColor;
+    border: 2px solid $secondaryColor;
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.about {
+  .info-box {
+    color: $tertiaryColor;
+    padding: 18px 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.087);
+    margin-top: -15px;
+
+    i.bx {
+      font-size: 24px;
+      color: $themeColor;
+      border-radius: 50%;
+      padding: 14px;
+      float: left;
+      background: $secondaryColor;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: $tertiaryColor;
+      font-weight: 700;
+      margin: 10px 0 8px 68px;
+    }
+
+    p {
+      padding: 0;
+      color: $tertiaryColor;
+      line-height: 24px;
+      margin: 0 0 0 68px;
+    }
+
+    .social-links {
+      margin: 5px 0 0 68px;
+      display: flex;
+
+      a {
+        font-size: 18px;
+        display: inline-block;
+        color: $primaryColor;
+        line-height: 1;
+        margin-right: 12px;
+        transition: 0.3s;
+
+        &:hover {
+          color: $secondaryColor;
+        }
+      }
+    }
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Skill
+--------------------------------------------------------------*/
+.skill {
+  .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.083);
+    transition: ease-in-out 0.3s;
+
+    h3 {
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.12);
+    }
+  }
+}
